@@ -2,7 +2,7 @@
 
 # PHYS220/MATH220/CPSC220 CW 3
 
-**Author(s):** **CHANGEME**
+**Author(s):** Amelia Roseto, Frank Entriken
 
 ## Specification
 
@@ -42,4 +42,6 @@ I pledge that all the work in this repository is my own with only the following 
 
 Signed,
 
-**YOURNAMES**
+Frank Entriken
+Amelia Roseto
+AKA Best Buds
