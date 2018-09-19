@@ -31,7 +31,7 @@ Note : the homework this week will be to finish all of the classwork, and includ
 
 Analyze in this section what you found useful about this assignment in your own words. Include any lingering questions or comments that you may have. You can use the GitHub web interface to edit this file directly for now.
 
-**CHANGEME**
+**This assignment gave us the chance to go much more in depth with a fibonacci script than we had originally thought. Creating a script to do one task is a fun activity, but being able to manipulate it and produce exactly what you want from the script is much more rewarding.**
 
 ## Honor Pledge
 
