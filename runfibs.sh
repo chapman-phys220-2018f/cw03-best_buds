@@ -11,7 +11,7 @@ if [ -e fibs.csv]; then
 fi
 
 echo > fibs.csv
-for i in  $(seq 10 ); do
+for i in  $(seq 1000 ); do
 	x=$(./fibs.py $i)
 	echo -n "$x, " >> fibs.csv;
 done

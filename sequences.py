@@ -16,4 +16,4 @@ def fibonacci(x):
         num_2 = temp
         fib_list.append(seq)
 
-    return fib_list[-1]
+    return fib_list
