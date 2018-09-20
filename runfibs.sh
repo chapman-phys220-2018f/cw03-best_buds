@@ -1,19 +1,17 @@
 #!/bin/bash
-
-file=./fibs.csv
-backup=./fibs.csv.bak
-
-if [ -e "$backup" ]; then
-    echo "Backup file already exists"
-    exit 1
+if [ -e fibs.csv.bk]; then
+    echo "fibs.csv already exists"
+    echo "fibs.csv.bk already exists"
+    exit
 fi
 
-if [ -e "$file" ]; then
-    mv fibs.csv fibs.csv.bak
-    echo "File already exists, moved file to 'fibs.csv.bak'."
+if [ -e fibs.csv]; then
+    mv fibs.csv fibs.csv.bk
+    echo "backup file created"
 fi
 
-for i in $(seq 1); do
-    x=$(./fib.py $i);
-    echo -n "$x, " >> fibs.csv;
+echo > fibs.csv
+for i in  $(seq 10 ); do
+	x=$(./fibs.py $i)
+	echo -n "$x, " >> fibs.csv;
 done

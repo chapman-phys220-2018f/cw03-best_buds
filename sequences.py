@@ -1,18 +1,19 @@
 #!/usr/bin/env python3
 
-def fibonacci(n):
-    number_one = 1
-    number_two = 1
-    temporary_number = 0
-    fib_number = ""
+def fibonacci(x):
 
-    fib_list = []
+    num_1 = 1
+    num_2 = 1
+    temp = 0
+    seq = ""
 
-    for i in range(n):
-            fib_number = number_one
-            temporary_number = number_one + number_two
-            number_one = number_two
-            number_two = temporary_number
-            fib_list.append(fib_number)
+    fib_list= []
+
+    for i in range(x):
+        seq = num_1
+        temp = num_1 + num_2
+        num_1 = num_2
+        num_2 = temp
+        fib_list.append(seq)
 
     return fib_list[-1]
